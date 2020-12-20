@@ -82,8 +82,8 @@ export default function Home(){
                                 <ButtonThree href="https://www.google.com/">Saiba mais</ButtonThree>
                             </ButtonContainerThree>
                         </CardThree>
-                    </CardsContainer>
 
+                    </CardsContainer>
                 </CardsWrapper>
 
             </ContentsWrapper>
