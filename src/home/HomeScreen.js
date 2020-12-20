@@ -1,39 +1,7 @@
 import React from 'react';
 import icon from '../assets/youtube-icon.png';
 import {FaBell, FaHeart} from 'react-icons/fa'
-
-import {Wrapper,
-        LeftBar,
-        LeftBarContents,
-        HomePageContainer,
-        LogoTitleContainer,
-        LogoTitle,
-        HomePage,
-        ContentsWrapper,
-        HeaderContainer,
-        ConfigurationContainer,
-        SearchInput,
-        NotificationContainer,
-        CardsWrapper,
-        CardsContainer,
-        CardOne,
-        YouTubeContainer,
-        YouTubeIcon,
-        YouTubeText,
-        ParagraphContainerOne,
-        MainParagraphOne,
-        ButtonContainerOne,
-        ButtonOne,
-        CardTwo,
-        ParagraphContainerTwo,
-        MainParagraphTwo,
-        ButtonContainerTwo,
-        ButtonTwo,
-        CardThree,
-        ParagraphContainerThree,
-        MainParagraphThree,
-        ButtonContainerThree,
-        ButtonThree} from './HomeScreenStyle';
+import {Wrapper,LeftBar,LeftBarContents,HomePageContainer,LogoTitleContainer,LogoTitle,HomePage,ContentsWrapper,HeaderContainer,ConfigurationContainer,SearchInput,NotificationContainer,CardsWrapper,CardsContainer,CardOne,YouTubeContainer,YouTubeIcon,YouTubeText,ParagraphContainerOne,MainParagraphOne,ButtonContainerOne,ButtonOne,CardTwo,ParagraphContainerTwo,MainParagraphTwo,ButtonContainerTwo,ButtonTwo,CardThree,ParagraphContainerThree,MainParagraphThree,ButtonContainerThree,ButtonThree} from './HomeScreenStyle';
 
 export default function Home(){
     return(

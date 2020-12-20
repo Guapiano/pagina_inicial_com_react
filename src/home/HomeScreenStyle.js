@@ -10,7 +10,7 @@ export const LeftBar = styled.div`
     height: 100%;
     min-width: 150px;
     background-color: #344055;
-    @media(max-width: 1200px){
+    @media(max-width: 1180px){
         display: none;
     }
 `;
@@ -71,6 +71,18 @@ export const HeaderContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
+    @media(max-width:600px){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+    }
+    @media(max-width:325px){
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
 `;
 
 export const ConfigurationContainer = styled.div`
@@ -98,6 +110,13 @@ export const SearchInput = styled.input`
     ::placeholder{
         color: #c0c0c0;
     }
+    @media(max-width:600px){
+        width: 200px;
+        height: 45px;
+    }
+    @media(max-width:325px){
+        width: 180px;
+    }
 `;
 
 export const NotificationContainer = styled.div`
@@ -117,7 +136,6 @@ export const CardsWrapper = styled.div`
     width: 90%;
     height: 80%;
     display: flex;
-    
 `;
 
 export const CardsContainer = styled.div`
@@ -126,7 +144,7 @@ export const CardsContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    @media(max-width: 1200px){
+    @media(max-width: 1180px){
         min-height: 1050px;
         flex-direction: column;
         justify-content: 'center';
