@@ -1,16 +1,16 @@
 import React from 'react';
-import {CardComponent,ParagraphContainerComponent,ParagraphComponent,ButtonContainerComponent,ButtonComponent,YouTubeContainerComponent,YouTubeIconComponent,YouTubeTextComponent} from './CardStyle';
-import icon from '../../assets/youtube-icon.png';
+import {CardComponent,ParagraphContainerComponent,ParagraphComponent,ButtonContainerComponent,ButtonComponent,MessengerContainerComponent,MessengerIconComponent,MessengerTextComponent} from './CardStyle';
+import icon from '../../assets/messenger-icon.png';
 
 export default function Card(){
     return(
         <CardComponent>
-            <YouTubeContainerComponent>
-                <YouTubeIconComponent src={icon}></YouTubeIconComponent>
-            </YouTubeContainerComponent>
-            <YouTubeTextComponent>Trabalhe no YouTube conosco</YouTubeTextComponent>
+            <MessengerContainerComponent>
+                <MessengerIconComponent src={icon}></MessengerIconComponent>
+            </MessengerContainerComponent>
+            <MessengerTextComponent>Venha para o Messenger</MessengerTextComponent>
             <ParagraphContainerComponent>
-                <ParagraphComponent>Temos o que você precisa. Envie seu currículo para que nós possamos analisá-lo.</ParagraphComponent>
+                <ParagraphComponent>Nós temos tudo o que você precisa.</ParagraphComponent>
             </ParagraphContainerComponent>
             <ButtonContainerComponent>
                 <ButtonComponent href="https://www.google.com/">Saiba mais</ButtonComponent>

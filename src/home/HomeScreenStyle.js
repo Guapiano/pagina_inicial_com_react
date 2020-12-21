@@ -45,6 +45,14 @@ export const ConfigurationContainer = styled.div`
     border-color: #eaeaea;
     background-color: #fff;
     justify-content: center;
+    @media(max-width:600px){
+        width:45px;
+        height: 45px;
+    }
+    @media(max-width:415px){
+        width: 45px;
+        height: 45px;
+    }
 `;
 
 export const SearchInput = styled.input`
@@ -60,11 +68,21 @@ export const SearchInput = styled.input`
         color: #c0c0c0;
     }
     @media(max-width:600px){
-        width: 200px;
+        width: 300px;
         height: 45px;
     }
+
+    @media(max-width:415px){
+        width: 250px;
+        height: 45px;
+    }
+
+    @media(max-width:385px){
+        width: 210px;
+    }
+
     @media(max-width:325px){
-        width: 180px;
+        width: 200px;
     }
 `;
 
@@ -79,6 +97,10 @@ export const NotificationContainer = styled.div`
     border-color: #eaeaea;
     background-color: #fff;
     justify-content: center;
+    @media(max-width:600px){
+        width: 45px;
+        height: 45px;
+    }
 `;
 
 export const CardsWrapper = styled.div`

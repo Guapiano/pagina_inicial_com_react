@@ -8,23 +8,43 @@ export const CardComponent = styled.div`
     border-radius: 10px;
     border-style: solid;
     border-color: #EAEAEA;
+    align-items: 'center';
     flex-direction: column;
     background-color: #fff;
+    justify-content: center;
+`;
+
+export const MessengerContainerComponent = styled.div`
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const MessengerIconComponent = styled.img`
+    width: 60px;
+`;
+
+export const MessengerTextComponent = styled.h2`
+    color: #04345C;
+    font-weight: bold;
+    text-align: center;
 `;
 
 export const ParagraphContainerComponent = styled.div`
-    width: 80%;
+    width: 100%;
     display: flex;
-    font-size: 14px;
     margin-top: 10px;
     align-self: center;
-    text-align: justify;
     align-items: center;
     justify-content: center;
 `;
 
 export const ParagraphComponent = styled.p`
     color: #c0c0c0;
+    font-size: 14px;
+    text-align: justify;
 `;
 
 export const ButtonContainerComponent = styled.div`
@@ -39,24 +59,5 @@ export const ButtonComponent = styled.a`
     padding: 15px;
     text-align: center;
     border-radius: 5px;
-    background-color: #344055;
-`;
-
-export const YouTubeContainerComponent = styled.div`
-    width: 100%;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-`;
-
-export const YouTubeIconComponent = styled.img`
-    width: 60px;
-`;
-
-export const YouTubeTextComponent = styled.h2`
-    color: #344055;
-    font-weight: bold;
-    text-align: center;
-    cursor: context-menu;
+    background-color: #1E77BD;
 `;

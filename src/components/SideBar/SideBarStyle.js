@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const SideBarComponent = styled.div`
     height: 100%;
     min-width: 150px;
-    background-color: #344055;
+    background-color: #1E77BD;
     @media(max-width: 1180px){
         display: none;
     }
@@ -29,7 +29,7 @@ export const HomePageContainerComponent = styled.div`
 export const HomePageComponent = styled.a`
     width: 60%;
     padding: 12px;
-    color: #344055;
+    color: #04345C;
     font-size: 14px;
     font-weight: bold;
     text-align: center;

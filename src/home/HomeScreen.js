@@ -11,11 +11,11 @@ export default function Home(){
             <ContentsWrapper>
                 <HeaderContainer>
                     <ConfigurationContainer>
-                        <FaHeart size={14} color="#344055"></FaHeart>
+                        <FaHeart size={14} color="#04345C"></FaHeart>
                     </ConfigurationContainer>
                     <SearchInput placeholder="Busque por empresas..."></SearchInput>
                     <NotificationContainer>
-                        <FaBell size={14} color="#344055"></FaBell>
+                        <FaBell size={14} color="#04345C"></FaBell>
                     </NotificationContainer>
                 </HeaderContainer>
                 <CardsWrapper>
