@@ -1,26 +1,18 @@
 import React from 'react';
-import icon from '../assets/youtube-icon.png';
 import {FaBell, FaHeart} from 'react-icons/fa'
-import {Wrapper,LeftBar,LeftBarContents,HomePageContainer,LogoTitleContainer,LogoTitle,HomePage,ContentsWrapper,HeaderContainer,ConfigurationContainer,SearchInput,NotificationContainer,CardsWrapper,CardsContainer,CardOne,YouTubeContainer,YouTubeIcon,YouTubeText,ParagraphContainerOne,MainParagraphOne,ButtonContainerOne,ButtonOne,CardTwo,ParagraphContainerTwo,MainParagraphTwo,ButtonContainerTwo,ButtonTwo,CardThree,ParagraphContainerThree,MainParagraphThree,ButtonContainerThree,ButtonThree} from './HomeScreenStyle';
+import {Wrapper,ContentsWrapper,HeaderContainer,ConfigurationContainer,SearchInput,NotificationContainer,CardsWrapper,CardsContainer} from './HomeScreenStyle';
+import Card from '../components/Card/Card'
+import SideBar from '../components/SideBar/SideBar'
 
 export default function Home(){
     return(
         <Wrapper>
 
-            <LeftBar>
-                <LeftBarContents>
-                    <HomePageContainer>
-                        <HomePage href="https://www.google.com/">Início</HomePage>
-                    </HomePageContainer>
-
-                    <LogoTitleContainer>
-                        <LogoTitle>JOBFINDER</LogoTitle>
-                    </LogoTitleContainer>
-                </LeftBarContents>
-            </LeftBar>
+            <SideBar></SideBar>
 
             <ContentsWrapper>
                 <HeaderContainer>
+
                     <ConfigurationContainer>
                         <FaHeart size={14} color="#344055"></FaHeart>
                     </ConfigurationContainer>
@@ -30,62 +22,20 @@ export default function Home(){
                     <NotificationContainer>
                         <FaBell size={14} color="#344055"></FaBell>
                     </NotificationContainer>
+                    
                 </HeaderContainer>
                 
                 <CardsWrapper>
                     <CardsContainer>
 
-                        <CardOne>
-                            <YouTubeContainer>
-                                <YouTubeIcon src={icon}></YouTubeIcon>
-                            </YouTubeContainer>
+                        <Card></Card>
 
-                            <YouTubeText>Trabalhe no YouTube conosco</YouTubeText>
+                        <Card></Card>
 
-                            <ParagraphContainerOne>
-                                <MainParagraphOne>Temos o que você precisa. Envie seu currículo para que nós possamos analisá-lo.</MainParagraphOne>
-                            </ParagraphContainerOne>
-
-                            <ButtonContainerOne>
-                                <ButtonOne href="https://www.google.com/">Saiba mais</ButtonOne>
-                            </ButtonContainerOne>
-                        </CardOne>
-
-                        <CardTwo>
-                            <YouTubeContainer>
-                                <YouTubeIcon src={icon}></YouTubeIcon>
-                            </YouTubeContainer>
-
-                            <YouTubeText>Trabalhe no YouTube conosco</YouTubeText>
-
-                            <ParagraphContainerTwo>
-                                <MainParagraphTwo>Temos o que você precisa. Envie seu currículo para que nós possamos analisá-lo.</MainParagraphTwo>
-                            </ParagraphContainerTwo>
-
-                            <ButtonContainerTwo>
-                                <ButtonTwo href="https://www.google.com/">Saiba mais</ButtonTwo>
-                            </ButtonContainerTwo>
-                        </CardTwo>
-
-                        <CardThree>
-                            <YouTubeContainer>
-                                <YouTubeIcon src={icon}></YouTubeIcon>
-                            </YouTubeContainer>
-
-                            <YouTubeText>Trabalhe no YouTube conosco</YouTubeText>
-
-                            <ParagraphContainerThree>
-                                <MainParagraphThree>Temos o que você precisa. Envie seu currículo para que nós possamos analisá-lo.</MainParagraphThree>
-                            </ParagraphContainerThree>
-
-                            <ButtonContainerThree>
-                                <ButtonThree href="https://www.google.com/">Saiba mais</ButtonThree>
-                            </ButtonContainerThree>
-                        </CardThree>
+                        <Card></Card>
 
                     </CardsContainer>
                 </CardsWrapper>
-
             </ContentsWrapper>
 
         </Wrapper>
