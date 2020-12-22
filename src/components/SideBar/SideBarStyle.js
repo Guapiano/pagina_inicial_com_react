@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SideBarComponent = styled.div`
-    height: 100%;
+    height: 100vh;
     min-width: 150px;
     background-color: #1E77BD;
     @media(max-width: 1180px){
@@ -48,5 +48,4 @@ export const LogoTitleContainerComponent =styled.div`
 export const LogoTitleComponent = styled.h3`
     color: #fff;
     letter-spacing: 2px;
-    cursor: context-menu;
 `

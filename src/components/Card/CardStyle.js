@@ -59,5 +59,12 @@ export const ButtonComponent = styled.a`
     padding: 15px;
     text-align: center;
     border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5px;
     background-color: #1E77BD;
+    :hover{
+        color: #1E77BD;
+        transition: all 500ms;
+        background-color: #fff;
+    }
 `;
