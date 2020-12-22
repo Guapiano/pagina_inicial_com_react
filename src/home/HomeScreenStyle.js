@@ -6,18 +6,12 @@ export const Wrapper = styled.div`
     display: flex;
 `;
 
-export const ContentsWrapper = styled.div`
+export const Contents = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-`;
-
-export const CardsWrapper = styled.div`
-    width: 90%;
-    height: 80%;
-    display: flex;
 `;
 
 export const CardsContainer = styled.div`

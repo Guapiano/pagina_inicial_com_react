@@ -6,6 +6,11 @@ export const HeaderComponent = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    @media(max-width: 1180px){
+        margin-top: 20px;
+    }
+
     @media(max-width:600px){
         display: flex;
         align-items: center;
