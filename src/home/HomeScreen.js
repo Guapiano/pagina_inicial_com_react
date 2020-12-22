@@ -1,28 +1,20 @@
 import React from 'react';
-import {FaBell, FaHeart} from 'react-icons/fa';
-import {Wrapper,ContentsWrapper,HeaderContainer,ConfigurationContainer,SearchInput,NotificationContainer,CardsWrapper,CardsContainer} from './HomeScreenStyle';
+import {Wrapper,ContentsWrapper,CardsWrapper,CardsContainer} from './HomeScreenStyle';
 import Card from '../components/Card/Card';
+import Header from '../components/Header/HeaderComponent'
 import SideBar from '../components/SideBar/SideBar';
 
 export default function Home(){
     return(
         <Wrapper>
-            <SideBar></SideBar>
+            <SideBar/>
             <ContentsWrapper>
-                <HeaderContainer>
-                    <ConfigurationContainer>
-                        <FaHeart size={14} color="#04345C"></FaHeart>
-                    </ConfigurationContainer>
-                    <SearchInput placeholder="Busque por empresas..."></SearchInput>
-                    <NotificationContainer>
-                        <FaBell size={14} color="#04345C"></FaBell>
-                    </NotificationContainer>
-                </HeaderContainer>
+                <Header/>
                 <CardsWrapper>
                     <CardsContainer>
-                        <Card></Card>
-                        <Card></Card>
-                        <Card></Card>
+                        <Card/>
+                        <Card/>
+                        <Card/>
                     </CardsContainer>
                 </CardsWrapper>
             </ContentsWrapper>
